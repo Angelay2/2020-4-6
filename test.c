@@ -47,7 +47,7 @@ int mystrlen2(char* str){
 	else
 		return 1 + mystrlen2(str+1);
 }
-int main(){
+int main3(){
 	char arr[] = "abcdef";
 
 	// int len = strlen(arr);
